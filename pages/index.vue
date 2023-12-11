@@ -18,9 +18,5 @@ contenuAccueil.value = data.value.page;
 </script>
 
 <template>
-  <nav>
-
-    
-  </nav>>
   <div v-html="contenuAccueil.texte.html"></div>
 </template>

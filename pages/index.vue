@@ -18,5 +18,20 @@ contenuAccueil.value = data.value.page;
 </script>
 
 <template>
-  <div v-html="contenuAccueil.texte.html"></div>
+  <div>
+    <TitresH2>Création de meubles stylés et recyclés</TitresH2>
+    <p>
+      Redonnez vie à votre intérieur avec RecyCraft : élégance durable, meubles
+      uniques, et une touche artistique. Bienvenue dans le renouveau écologique.
+    </p>
+  </div>
+  <div>
+    <p>
+      Découvrez l'élégance éco-chic chez RecyCraft. Plongez dans notre
+      collection de produits uniques, alliant design raffiné et durabilité.
+      Transformez votre espace avec des pièces qui racontent des histoires.
+      Explorez la page produits pour trouver l'harmonie parfaite entre style et
+      responsabilité.
+    </p>
+  </div>
 </template>

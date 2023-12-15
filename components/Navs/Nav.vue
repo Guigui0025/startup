@@ -1,11 +1,10 @@
 <template>
-  <nav class="sticky top-0 z-50">
+  <nav class="sticky top-0">
     <div
       class="flex items-center justify-between flex-wrap bg-[#fcfcfc] h-20 px-4 border-b border-white"
     >
       <div class="flex items-center">
         <nuxt-link to="/">
-          
           <slot name="logo"></slot>
         </nuxt-link>
       </div>

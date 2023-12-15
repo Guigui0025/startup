@@ -1,7 +1,7 @@
 <template>
   <NavsNav>
     <template #logo>
-      <TitresLogo>Design System</TitresLogo>
+      <TitresLogo>RecyCraft</TitresLogo>
     </template>
 
     <template #links>

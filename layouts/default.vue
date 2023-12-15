@@ -1,18 +1,22 @@
 <template>
   <Head>
-    <Title>Design System</Title>
+    <Title>RecyCraft</Title>
     <Meta name="description" content="Design System" />
   </Head>
   <LayoutsBase>
     <template #navigation>
       <NavsNav>
         <template #logo>
-          <TitresLogo>Design System</TitresLogo>
+          <TitresLogo>RecyCraft</TitresLogo>
         </template>
 
         <template #links>
           <LinksNavLink to="/">Accueil</LinksNavLink>
-          <LinksNavLink to="/">Produits</LinksNavLink>
+          <LinksNavLink to="/produits">Produits</LinksNavLink>
+          <LinksNavLink to="/societe">Société</LinksNavLink>
+          <LinksNavLink to="/equipe">Équipe</LinksNavLink>
+          <LinksNavLink to="/contact">Contact</LinksNavLink>
+          <LinksNavLink to="/blog">Blog</LinksNavLink>
         </template>
       </NavsNav>
     </template>

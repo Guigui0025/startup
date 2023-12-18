@@ -43,17 +43,18 @@ produit.value = data.value.produit;
       :alt="produit.nom"
       class="mb-4 md:mb-0 md:mr-4"
     />
-    <div class="">
-      <h2 class="text-3xl">{{ produit.nom }}</h2>
-      <br />
-      <p class="text-lg">{{ produit.description }}</p>
-      <br />
+    <div class="space-y-8">
+      <h2 class="text-3xl margin-top-8">{{ produit.nom }}</h2>
+      <h3 class="text-2xl margin-top-8">{{ produit.prix }}€</h3>
 
-      <a
-        href="#"
-        class="bg-[#E75A36] text-lg text-[#222c5f] hover:text-[#E75A36] hover:bg-[#222c5f] px-4 py-2 rounded-lg mt-8"
-        >Acheter</a
-      >
+      <p class="text-lg">{{ produit.description }}</p>
+      <div>
+        <a
+          href="#"
+          class="bg-[#E75A36] text-lg text-[#222c5f] hover:text-[#E75A36] hover:bg-[#222c5f] px-4 py-2 rounded-lg mt-8"
+          >Acheter</a
+        >
+      </div>
     </div>
   </div>
   <div v-else>

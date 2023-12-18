@@ -1,20 +1,50 @@
-<script setup>
-const query = gql`
-  query Pages {
-    produits {
-      description
-      nom
-      prix
-      image {
-        url
-      }
-      slug
-    }
-  }
-`;
+<template>
+  <div
+    class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center mt-16"
+  >
+    <img
+      src="../img/bonhomme.jpg"
+      alt="homme travaillant le bois"
+      width="500"
+      height="500"
+    />
+    <div class="flex flex-col ml-4">
+      <TitresH3>A propos de nous</TitresH3>
+      <p class="">
+        Chez RecyCraft, une petite équipe passionnée redonne vie aux objets
+        oubliés. Notre approche artisanale transforme le recyclage en art,
+        chaque création portant la marque de notre engagement. En tant que
+        petite équipe unie, nous fusionnons créativité et durabilité pour offrir
+        des pièces uniques qui racontent leur propre histoire.
+      </p>
+    </div>
+  </div>
 
-const contenuProduits = ref();
-const { data } = await useAsyncQuery(query);
-console.log(data.value);
-contenuProduits.value = data.value.produits;
-</script>
+  <div
+    class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center mt-16"
+  >
+    <div class="flex flex-col mr-4">
+      <TitresH3>L'Art Durable chez RecyCraft</TitresH3>
+      <p class="">
+        L'utilisation de matériaux écologiques est une pierre angulaire de notre
+        approche artistique. Nous croyons que la beauté exceptionnelle émerge de
+        la fusion entre l'esthétique intemporelle et la responsabilité
+        environnementale. Opter pour des matériaux comme le bois recyclé apporte
+        une authenticité unique à chaque création, créant des objets intemporels
+        au-delà des tendances éphémères. Cette démarche va au-delà de
+        l'esthétisme, contribuant à un impact environnemental positif en
+        préservant les ressources naturelles et en réduisant les déchets. Chez
+        RecyCraft, chaque objet témoigne de notre responsabilité artistique
+        envers la beauté durable et la planète que nous chérissons.
+        Rejoignez-nous dans cette aventure artistique et écologique où chaque
+        création raconte une histoire unique et respectueuse.
+      </p>
+    </div>
+    <img
+      src="../img/machine.jpg"
+      alt="morceau de bois se faisant découper par une machine"
+      width="500"
+      height="500"
+    />
+  </div>
+</template>

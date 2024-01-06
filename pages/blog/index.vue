@@ -18,6 +18,12 @@ contenuBlogs.value = data.value.blogs;
 </script>
 
 <template>
+  <div class="text-center text-xl bg-[#00102e] mb-8 pb-8">
+    <TitresH2 >Blog</TitresH2>
+    <p class="text-[#f5f5f5]">
+      Lisez nos articles sur la menuiserie et le recyclage
+    </p>
+    </div>
   <ul
     v-if="contenuBlogs"
     class="flex flex-wrap justify-evenly items-center gap-8"

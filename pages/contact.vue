@@ -1,20 +1,12 @@
-<script setup>
-const query = gql`
-  query Pages {
-    produits {
-      description
-      nom
-      prix
-      image {
-        url
-      }
-      slug
-    }
-  }
-`;
+<template>
+  <div class="text-center text-xl bg-[#00102e] pb-8">
+    <TitresH2 >Contact</TitresH2>
+    <p class="text-[#f5f5f5]">
+      Remplissez le formulaire pour nous contacter
+      </p>
+    </div>
+    <div>
 
-const contenuProduits = ref();
-const { data } = await useAsyncQuery(query);
-console.log(data.value);
-contenuProduits.value = data.value.produits;
-</script>
+
+    </div>
+</template>

@@ -1,7 +1,14 @@
 <template>
+ <div class="text-center text-xl bg-[#00102e] pb-8">
+    <TitresH2 >A propos</TitresH2>
+    <p class="text-[#f5f5f5]">
+      Découvrez comment notre entreprise fonctionne
+    </p>
+    </div>
   <div
     class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center mt-16"
   >
+  
     <img
       src="../img/bonhomme.jpg"
       alt="homme travaillant le bois"
@@ -9,7 +16,7 @@
       height="500"
     />
     <div class="flex flex-col ml-4">
-      <TitresH3>A propos de nous</TitresH3>
+      <TitresH3>Notre entreprise</TitresH3>
       <p class="">
         Chez RecyCraft, une petite équipe passionnée redonne vie aux objets
         oubliés. Notre approche artisanale transforme le recyclage en art,

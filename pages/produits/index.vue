@@ -20,6 +20,12 @@ contenuProduits.value = data.value.produits;
 </script>
 
 <template>
+  <div class="text-center text-xl bg-[#00102e] mb-8 pb-8">
+    <TitresH2 >Nos produits</TitresH2>
+    <p class="text-[#f5f5f5]">
+      Découvrez notre gamme de produits
+    </p>
+    </div>
   <ul
     v-if="contenuProduits"
     class="flex flex-wrap justify-evenly items-center gap-8"

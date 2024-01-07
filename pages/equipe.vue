@@ -8,8 +8,8 @@
     </p>
     </div>
   <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center mt-16 space-y-8 md:space-y-0 md:space-x-48">
-  <p><img src="../img/profil_picture_01.jpg" width="400" height="400" class="mb-4"> John Carter - Responsable commercial</p>
-  <p><img src="../img/profil_picture_03.jpg" width="376" height="400" class="mb-4"> Maria Gonzalez - Product design</p>
+  <p><img src="public\img\profil_picture_01.jpg" width="400" height="400" class="mb-4"> John Carter - Responsable commercial</p>
+  <p><img src="public\img\profil_picture_03.jpg" width="376" height="400" class="mb-4"> Maria Gonzalez - Product design</p>
 </div>
 
 

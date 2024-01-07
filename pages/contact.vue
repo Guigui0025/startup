@@ -14,16 +14,16 @@
             <h1
               class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight"
             >
-              Get in touch
+             Nos coordonnées
             </h1>
             <p
               class="text-normal text-lg sm:text-2xl font-medium  dark:text-[#FFFFFF] mt-2"
             >
-              Fill in the form to start a conversation
+              
             </p>
 
             <div
-              class="flex items-center mt-8 text-gray-600 dark:text-[#FFFFFF]"
+              class="flex items-center mt-16 text-gray-600 dark:text-[#FFFFFF]"
             >
               <svg
                 fill="none"
@@ -71,13 +71,13 @@
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              <div class="ml-4 text-md tracking-wide font-semibold w-40">
+              <div class="ml-4 mt-4 text-md tracking-wide font-semibold w-40">
                 +32 457 854 624
               </div>
             </div>
 
             <div
-              class="flex items-center mt-2 text-gray-600 dark:text-[#ffffff]"
+              class="flex items-center mt-4 text-gray-600 dark:text-[#ffffff]"
             >
               <svg
                 fill="none"
@@ -150,7 +150,7 @@
             </button>
 
           </form>
-          <iframe class="mt-8 mb-8" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1263.226158494583!2d4.52116261441138!3d50.71154720521629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRue%20des%20potiers%2C%203%2C%201330%20Rixensart!5e0!3m2!1sfr!2sbe!4v1704629125447!5m2!1sfr!2sbe" width="1080" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe class="mt-8 mb-8" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1263.226158494583!2d4.52116261441138!3d50.71154720521629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRue%20des%20potiers%2C%203%2C%201330%20Rixensart!5e0!3m2!1sfr!2sbe!4v1704629125447!5m2!1sfr!2sbe" width="1080" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

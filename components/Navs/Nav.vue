@@ -1,7 +1,7 @@
 <template>
-  <nav class="sticky top-0">
+  <nav class=" w-full z-999 top-0">
     <div
-      class="flex items-center justify-between flex-wrap bg-[#fcfcfc] h-20 px-4 border-b border-white"
+      class="flex items-center justify-between flex-wrap bg-[#fcfcfc] h-20 px-4 border-b border-white "
     >
       <div class="flex items-center">
         <nuxt-link to="/">

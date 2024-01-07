@@ -10,7 +10,7 @@
   >
   
     <img
-      src="../img/bonhomme.jpg"
+      src="public\img\bonhomme.jpg"
       alt="homme travaillant le bois"
       width="500"
       height="500"
@@ -48,7 +48,7 @@
       </p>
     </div>
     <img
-      src="../img/machine.jpg"
+      src="public\img\machine.jpg"
       alt="morceau de bois se faisant découper par une machine"
       width="500"
       height="500"

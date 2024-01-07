@@ -36,7 +36,7 @@ produit.value = data.value.produit;
 <template>
   <div
     v-if="produit"
-    class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center"
+    class="mt-32 max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center"
   >
     <NuxtImg
       :src="produit.image.url"

@@ -96,7 +96,7 @@
                 />
               </svg>
               <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                info@acme.org
+                info@recycraft.com
               </div>
             </div>
           </div>

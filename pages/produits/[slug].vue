@@ -14,7 +14,7 @@ const query = gql`
       image {
         url(
           transformation: {
-            image: { resize: { fit: crop, height: 1024, width: 1024 } }
+            image: { resize: { fit: crop, height: 500, width: 500 } }
           }
         )
       }
@@ -41,7 +41,7 @@ produit.value = data.value.produit;
     <NuxtImg
       :src="produit.image.url"
       :alt="produit.nom"
-      class="mb-4 md:mb-0 md:mr-4"
+      class="mt-32 mb-4 md:mb-0 md:mr-4 "
     />
     <div class="space-y-8">
       <h2 class="text-3xl margin-top-8">{{ produit.nom }}</h2>
